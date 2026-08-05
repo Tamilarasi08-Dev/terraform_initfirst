@@ -1,3 +1,4 @@
+#create remote backup in S3 and locking with Dynamo DB
 resource "aws_s3_bucket" "terraform_state" {
 
   bucket = var.bucket_name
